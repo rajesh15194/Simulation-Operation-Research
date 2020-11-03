@@ -1,6 +1,6 @@
 # Simulation of Queueing Problem (Operation-Research)
 
-Typically this individual sub-system as dealing with customers queuing for service. The Carwash example is a simulation of a carwash center with a limited number of machines and a number of cars that arrive at the carwash to get cleaned.
+Typically this individual sub-system deals with customers queuing for service. The Carwash example implemented is a simulation of a carwash center with a limited number of machines and a number of cars that arrive at the carwash to get cleaned. This Web App is build using Python With Flask.
 
 ![Screenshot (5)](https://user-images.githubusercontent.com/60981198/98044897-a2592b80-1e4d-11eb-8395-b951056fdf04.png)
 
