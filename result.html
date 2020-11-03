@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+html {
+  height: 100%;
+  background-image: url("https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/01/carwash-1920x1286.jpg");
+	background-size: 100% 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 160px;
+  padding: 30px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #AEB6BF ;
+  text-align: center;
+  font-style: italic;
+}
+
+.login-box h3 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  margin-top: 55px;
+}
+</style>
+<body>
+<div class="login-box">
+  <h2>Carwash Waiting Time Estimator</h2>
+   <h3>{{result}}</h3>
+</div>
+
